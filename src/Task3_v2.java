@@ -16,11 +16,11 @@ public class Task3_v2 {
     }
     private static void convert(double celsius,String choice ) {
         if (choice .equals("K")) {
-            double convertK = celsius + 273;
+            double convertK = celsius + 273.15;
             System.out.println("Температура в Кельвинах " + convertK);
         } else {
         if (choice .equals("F")) {
-            double convertF = (celsius * 9/5 ) + 32;
+            double convertF = (celsius * 1.8) + 32;
             System.out.println("Температура в Фаренгейтах " + convertF);
         } else {
             System.out.println("Ошибка: Неверный выбор конвертации");
