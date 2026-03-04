@@ -14,7 +14,7 @@ public class Task1 {
         }
         // Находим максимальное значение
         double max = Double.MIN_VALUE;
-        for (int i = 1; i < array.length; i++) {
+        for (int i = 0; i < array.length; i++) {
             if (array[i] > max) {
                 max = array[i];
             }
@@ -22,7 +22,7 @@ public class Task1 {
 
         // Находим минимальное значение
         double min = Double.MAX_VALUE;
-        for (int i = 1; i < array.length; i++) {
+        for (int i = 0; i < array.length; i++) {
             if (array[i] < min) {
                 min = array[i];
             }

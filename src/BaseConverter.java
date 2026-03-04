@@ -34,7 +34,7 @@ public class BaseConverter {
                 System.out.printf("Температура в Кельвинах: %.2f K%n", kelvin );
                 break;
             case FAHRENHEIT:
-                double fahrenheit  = (celsius * 9/5 ) + 32;
+                double fahrenheit  = (celsius * 1.8) + 32;
                 System.out.printf("Температура в Фаренгейтах: %.2f °F%n", fahrenheit);
                 break;
             default:
